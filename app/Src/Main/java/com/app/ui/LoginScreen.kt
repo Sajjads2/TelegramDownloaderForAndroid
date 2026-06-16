@@ -12,15 +12,11 @@ fun LoginScreen() {
 
     Column {
 
-        Text("TDLib Login")
-
         TextField(phone, { phone = it }, label = { Text("Phone") })
         TextField(apiId, { apiId = it }, label = { Text("API ID") })
         TextField(apiHash, { apiHash = it }, label = { Text("API HASH") })
 
-        Button(onClick = {
-            // send to AuthManager
-        }) {
+        Button(onClick = {}) {
             Text("Login")
         }
     }
