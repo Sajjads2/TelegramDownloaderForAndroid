@@ -14,6 +14,7 @@ jobs:
         run: |
           sudo apt update
           sudo apt install -y git cmake g++ clang libssl-dev zlib1g-dev
+          gperf
 
       - name: Clone TDLib
         run: git clone https://github.com/tdlib/td.git
