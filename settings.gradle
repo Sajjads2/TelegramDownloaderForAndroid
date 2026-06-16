@@ -1,0 +1,2 @@
+rootProject.name = "TDLibDownloader"
+include ':app'
